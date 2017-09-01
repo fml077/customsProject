@@ -1,0 +1,64 @@
+.mapWrap{
+	width: 100%;
+	/*background: url('./indexbg.jpg');*/
+	background-color: #345391;
+
+}
+/*清除浮动*/
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.clearfix{ /*兼容 IE*/
+    zoom: 1;
+}
+.indexLeft{
+	float: left;
+	margin-top: 40px;
+	width: 50%;
+	.mapDom1{
+		height: 400px;
+		margin-top: 58px
+	}
+}
+.indexRight{
+	float: left;
+	margin-top: 20px;
+	width: 50%;
+	color: #fff;
+	.indexRightTop{
+		text-align: center;
+		h2{
+			color: #fff;
+			margin-bottom: 1.5rem;
+		}
+		h3{
+			font-size: 18px;
+			height: 2rem;
+			margin-bottom: 1rem;
+			color: #fff;
+		}
+		.indexNumbers{
+			text-align: left;
+			font-size: 16px;
+			margin-bottom: 1.5rem;
+			text-align: center;
+			li{
+				height: 2rem;
+				line-height: 2rem;
+				margin-bottom: 1.5rem;
+				span{
+					margin-right: 30px;
+				}
+			}
+		}
+		i{
+			font-style: normal;
+			color: #15E2FA
+		}
+	}
+	.mapDom2{
+		height: 350px;
+	}
+}

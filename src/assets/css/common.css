@@ -1,0 +1,244 @@
+.Header_index:hover{
+  font-weight: 400;
+  text-decoration: underline
+}
+.DatePicker_container{
+    display: flex;
+    justify-content:center;
+}
+.DatePicker{
+    width: 60px;
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+.example-input{
+  margin-right: 10px
+}
+.example-input .ant-input {
+  width: 160px;
+  margin: 0px 8px 8px 0;
+}
+
+.fix .ant-input {
+  width: 200px;
+  margin: 0px 8px 8px 0;
+}
+
+.tooltip {
+            position: absolute;
+            width: 100px;
+            height: auto;
+            font-size: 14px;
+            text-align: center;
+            border-radius: 5px;
+            padding: 3px;
+            color:#fff;
+            font-weight: 400;
+            background:rgba(44, 43, 43, 0.70)
+        }
+
+.e-card{
+  box-sizing: border-box;
+  border: 0px solid #666;
+  border-radius: 10px;
+  /* background-color: #E0E0E0; */
+  background-color: rgba(255, 255, 255,1);
+  padding:10px;
+  flex: 1
+}
+.e-blank{
+  width: 15px;
+  background-color: #eee
+  /*visibility:hidden*/
+}
+.e-card h4{
+  
+}
+.e-danger-title{
+  text-align: center;
+  text-decoration: underline;
+  color: #000;
+  line-height: 35px
+}
+
+
+    #priceChart  .axis path {
+        display: none;
+    }
+    #priceChart  .axis .tick line{
+        opacity: 0
+    }
+    #priceChart  .axis-x path {
+        stroke: #aaa;
+        stroke-width: 1
+    }
+    #priceChart  .axis-x .tick line{
+        stroke: #aaa;
+        stroke-width: 1
+    }
+    #priceChart  .axis-x .tick text{
+        transform: rotate(-30deg);
+    }
+
+    #priceChart  #grid line {
+      stroke: #aaa;
+      stroke-width: 1
+    }
+    #priceChart  #grid .tick:nth-child(2) {
+      display: none
+    }
+    #priceChart  #grid path {
+      display: none
+    }
+    #priceChart  .line_y .domain{
+        stroke: yellow;
+        stroke-width: 2
+    }
+
+
+    #barChart .axis--x path {
+      display: none;
+    }
+    #barChart .grid .domain {
+      display: none
+    }
+    #barChart .grid .tick line{
+      stroke:#ccc
+    }
+
+.detail-table{
+  background-color: #fff;
+  box-sizing: border-box;
+  margin-top: 10px;
+  width:100%
+}
+.detail-table .tab{
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  width:100%
+}
+.detail-table ._tab{
+  line-height: 28px;
+  border: 1px solid #ccc;
+  border-top: none
+}
+
+.detail-table ._tab .result{
+  width:260px;
+  float:right;
+  border-left: 1px solid #ccc;
+  text-align: center
+}
+.detail-table ._tab .type{
+  padding-left: 4px
+}
+.e-card .card-content{
+  background-color: #fff;
+  height:300px;
+  margin-top: 10px
+}
+
+
+.BasicMessage table{
+  border-collapse: collapse;
+}
+
+.BasicMessage table , .BasicMessage tr , .BasicMessage td{
+  border: 1px solid #999
+}
+
+.BasicMessage table .KEY{
+  width: 110px;
+  height: 35px;
+  font-weight: bold;
+  text-indent: 3px;
+  font-size: 12px
+}
+.BasicMessage table .VALUE{
+  width: 190px;
+  text-align: center;
+  font-size: 12px
+}
+
+
+.BasicMessage .b-table{
+  border-top:none;
+  height: 35px;
+  width: 1200px;
+}
+
+.BasicMessage .b-table .KEY{
+  width: 110px;
+  height: 35px;
+  font-weight: bold;
+  text-indent: 3px;
+  font-size: 12px
+}
+.BasicMessage .float{
+  box-sizing: border-box;
+  line-height: 25px;
+  float:left
+}
+.BasicMessage .b-table ._VALUE{
+  width: 490px;
+  line-height: 35px;
+  text-align: center;
+  margin-top: -1px;
+  font-size: 12px;
+}
+.BasicMessage .left{
+  border-left: 1px solid #999
+}
+.BasicMessage .top{
+  border-top: 1px solid #999
+}
+.BasicMessage .bottom{
+  border-bottom: 1px solid #999
+}
+.BasicMessage .right{
+  border-right: 1px solid #999
+}
+
+#drop_change{
+   /* position: absolute;
+   left:0px;
+   top:100px */
+}
+
+.col-sql{
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.RelatedMessage .du{
+  display:border-box;
+  margin:1px;
+  width:33.3333%;
+  color:#fff;
+  line-height: 40px;
+  background-color: #CFD8DC;
+  text-align: center;
+  color:#000;
+  cursor:pointer;
+}
+
+.RelatedMessage .selected{
+  display:border-box;
+  margin:1px;
+  width:33.3333%;
+  line-height: 40px;
+  text-align: center;
+  cursor:pointer;
+  background-color:#7E57C2;
+  color:#fff
+}
+
+
+.ant-table-row{
+  background-color: #fff
+}

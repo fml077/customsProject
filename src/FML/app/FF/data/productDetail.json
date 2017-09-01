@@ -1,0 +1,49 @@
+{
+  "name": "饲料用白鱼粉",
+  "productImg": "/FML/static/images/proDetail1.png",
+  "dutyParagraph": {
+    "alias": "税号",
+    "value":"12121110"
+  },
+  "riskInf": {
+    "alias": "风险信息（条）",
+    "value":"5"
+  },
+  "declarePrice": {
+    "alias": "申报单价",
+    "value":"20"
+  },
+  "declareNnit": {
+    "alias": "申报计量单位",
+    "value":"20"
+  },
+  "type": {
+    "alias": "规格型号",
+    "value":"(蛋白质:58.44%脂肪:12.35%水:7)"},
+  "oddNumber": {
+    "alias": "报关单号",
+    "value":"2325542334"
+  },
+  "customsPrice": {
+    "alias": "海关单价",
+    "value":"18"
+  },
+  "legalPrice": {
+    "alias": "法定单位",
+    "value":"20"
+  },
+  "applicatioCompany": {
+    "alias": "申报单位",
+    "value":"荣成市宝海鱼粉贸易有限公司"},
+  "origin": {
+    "alias": "原产地",
+    "value":"俄罗斯联邦"
+  },
+  "currency": {
+    "alias": "币制",
+    "value":"USD"
+  },
+  "declareTotalPrice": {
+    "alias": "申报总价",
+    "value":"4424"}
+}

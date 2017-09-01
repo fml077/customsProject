@@ -1,0 +1,167 @@
+html,body{
+	background-color: #ECF0F1;
+	width: 100%;
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+.queryConditionUL{
+	list-style: none;
+}
+.queryConditionUL li{
+	float: left;
+	width: 30%;
+	margin: 10px;
+}
+.queryConditionUL>li>span,em{
+	float: right;
+	width: 65%;
+}
+.queryConditionUL>li>span>input{
+	border-radius: 5px;
+	outline: none;
+	width: 100%;
+    border: 1px solid gray;
+    padding: 2px;
+
+}
+.queryConditionUL>li>span>select{
+	width: 100%;
+    border: 1px solid gray;
+    outline: none;
+    padding: 2px;
+}
+.queryConditionUL>li>em>input{
+    border-radius: 5px;
+	outline: none;
+	width: 41%;
+    border: 1px solid gray;
+    padding: 2px;
+}
+.queryConditionUL>li>em>input:last-child{
+	float: right;
+}
+.btnsDiv{
+	width: 100%;
+	padding-right: 60px
+}
+.btnsDiv div{
+	float: right
+}
+.btnsDiv div button{
+	padding: 6px 50px;
+	margin: 70px 0px 15px 15px;
+	border-radius: 6px;
+
+}
+.tables{
+	width: 200%;
+	border:0px solid black;
+	border-collapse:collapse;
+	background-color: white;
+}
+.tables td,.tables th{
+	border: 0px solid #808080;
+	text-align: center;
+	white-space: nowrap;
+	width: 100px;
+	height: 40px;
+}
+.tables th{
+	height: 40px;
+	font-size: 15px;
+}
+.tables td{
+	font-size: 14px;
+}
+.tables tr:first-child:hover{
+	background-color: white;
+}
+.tables tr:hover{
+	background-color: rgba(182, 255, 182, 0.30);
+}
+.tables tr td:first-child{
+	width: 40px;
+}
+.tables tr th:first-child{
+	width: 40px;
+}
+.tableDiv{
+	width: 100%;
+	height: 500px;
+	overflow: auto;
+	margin:30px 20px 20px;
+	border-radius: 8px;
+	position: relative;
+}
+.isdisplay{
+	position: absolute;
+	top: 20px;
+	right: 380px;
+	background-color: rgba(0,0,0,.8);
+	width: 200px;
+	height: 150px;
+	padding:5px 20px;
+	border: 1px solid gray;
+	color: #fff
+}
+.isdisplay h6{
+	text-align: center;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.nums{
+	width: 100%;
+	float: right;
+	text-indent: 25px;
+	font-size: 16px
+}
+.nums span{
+	color: red;
+}
+.btns{
+	float: right;
+}
+.btns button{
+	border:0px;
+	padding: 8px 50px;
+	line-height: 8px;
+	margin: 12px;
+	border-radius: 4px;
+	background-color: #3498DB;
+	color: white;
+}
+
+
+
+
+
+/* 滚动条 */
+::-webkit-scrollbar-thumb:horizontal { /*水平滚动条的样式*/
+	width: 5px;
+	background-color: #CCCCCC;
+	-webkit-border-radius: 6px;
+}
+::-webkit-scrollbar-track-piece {
+	background-color: #fff; /*滚动条的背景颜色*/
+	-webkit-border-radius: 0; /*滚动条的圆角宽度*/
+}
+::-webkit-scrollbar {
+	width: 10px; /*滚动条的宽度*/
+	height: 8px; /*滚动条的高度*/
+}
+::-webkit-scrollbar-thumb:vertical { /*垂直滚动条的样式*/
+	height: 50px;
+	background-color: #999;
+	-webkit-border-radius: 4px;
+	outline: 2px solid #fff;
+	outline-offset: -2px;
+	border: 2px solid #fff;
+}
+::-webkit-scrollbar-thumb:hover { /*滚动条的hover样式*/
+	height: 50px;
+	background-color: #9f9f9f;
+	-webkit-border-radius: 4px;
+}

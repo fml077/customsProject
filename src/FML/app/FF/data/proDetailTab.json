@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "fileName": "tab1.jpg",
+    "desc": "报关单信息"
+  },
+  {
+    "id": "2",
+    "fileName": "tab2.jpg",
+    "desc": "企业信息"
+  },
+  {
+    "id": "3",
+    "fileName": "tab3.jpg",
+    "desc": "审单结果"
+  },
+  {
+    "id": "4",
+    "fileName": "tab4.png",
+    "desc": "报关单环节历史"
+  },
+  {
+    "id": "5",
+    "fileName": "tab5.png",
+    "desc": "环节历史"
+  },
+  {
+    "id": "6",
+    "fileName": "tab6.png",
+    "desc": "风险信息"
+  },
+  {
+    "id": "7",
+    "fileName": "tab7.png",
+    "desc": "随附单据"
+  },
+  {
+    "id": "8",
+    "fileName": "tab8.png",
+    "desc": "归类复核"
+  },
+  {
+    "id": "9",
+    "fileName": "tab9.png",
+    "desc": "规范申报"
+  },
+  {
+    "id": "10",
+    "fileName": "tab10.png",
+    "desc": "税单信息"
+  }
+]
