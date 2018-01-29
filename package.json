@@ -1,5 +1,5 @@
 {
-  "name": "redux-tower-demo",
+  "name": "redux-project",
   "version": "1.0.0",
   "description": "learn redux",
   "scripts": {
@@ -9,11 +9,6 @@
     "start": "node devServer.js",
     "lint": "eslint src"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://git.coding.net/happypeter/redux-tower-demo.git"
-  },
-  "author": "happypeter",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.6.5",
